@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+section {
+  margin-top:
+    /* величина висоти вашого header */
+  ;
+  /* Додайте інші стилі для секції за потреби */
+}
+
+.header-line {
+  width: 100%;
+  max-width: 1360px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-list {
+  display: flex;
+  align-items: center;
+}
+
+.list-head-fir {
+  margin-left: 40px;
+}
+
+.head-list-items {
+  font-family: "Inria Serif", serif;
+  font-size: 36px;
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 28px 20px;
+}
